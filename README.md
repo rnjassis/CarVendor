@@ -26,3 +26,8 @@ Remove-Migration
 Update-Database
 Install-Package <PackageName>
 ```
+
+### Angular Cli Commands
+```sh
+ng g c vehicle-form --module ../app
+```
