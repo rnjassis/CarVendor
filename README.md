@@ -21,8 +21,8 @@ The login is sa
 
 ### Nuget Console Commands
 ```sh
-Add-Migration InitialModel
-Remove-Migration
+Add-Migration <MigrationName>
+Remove-Migration <MigrationName> or without name to remove the last migration
 Update-Database
 Install-Package <PackageName>
 ```
